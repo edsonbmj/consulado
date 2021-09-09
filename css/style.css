@@ -1,0 +1,40 @@
+*{
+  font-family: JetBrains Mono;
+  font-size: 20px;
+}
+body{
+  background-image: url('../css/image\ \(1\).png');
+  background-size: cover;
+
+}
+.container{
+  margin: 0 auto;
+  margin-top: 15%;
+  width: 300px;
+  min-height: 150px;
+  background-color: rgba(127,255,212, 0.15);
+  border-radius: 10px;
+  border: solid 2px antiquewhite;
+  padding: 20px;
+  font-size: 18px;
+  color: rgb(20,20,20);
+}
+.container h1{
+  color: rgb(20,20,20);
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+input{
+  background-color: antiquewhite;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.botao input:hover{
+  background-color: greenyellow;
+  transition: all .7s;
+}
+#res{
+  margin-top:30px;
+  text-align: center;
+}
